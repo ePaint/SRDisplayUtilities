@@ -1,7 +1,7 @@
 function Get-SRBinaryChoice {
     Param
     (
-         [Parameter(Mandatory=$true, Position=0)]  [String]       $Prompt,
+         [Parameter(Mandatory=$true,  Position=0)] [String]       $Prompt,
          [Parameter(Mandatory=$false, Position=1)] [ConsoleColor] $PromptColor = $SRDisplayUtilities_PrimaryColor,
 
          [Parameter(Mandatory=$false, Position=2)] [Switch]       $ClearScreen

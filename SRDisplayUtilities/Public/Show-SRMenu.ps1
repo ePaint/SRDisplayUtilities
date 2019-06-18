@@ -10,8 +10,8 @@ function Show-SRMenu {
         [Parameter(Mandatory=$true,  Position=4)] [String[]]     $Options,
         [Parameter(Mandatory=$false, Position=5)] [ConsoleColor] $OptionsColor  = $SRDisplayUtilities_SecondaryColor,
 
-        [Parameter(Mandatory=$true,  Position=6)] [Switch]       $CanQuit,
-        [Parameter(Mandatory=$true,  Position=7)] [Switch]       $ClearScreen
+        [Parameter(Mandatory=$false, Position=6)] [Switch]       $CanQuit,
+        [Parameter(Mandatory=$false, Position=7)] [Switch]       $ClearScreen
     )
 
     Show-SRTitle -Title $Title -TitleColor $TitleColor -SubTitle $SubTitle -SubTitleColor $SubTitleColor -Offset 2 -ClearScreen:$ClearScreen
