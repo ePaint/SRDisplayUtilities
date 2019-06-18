@@ -18,5 +18,5 @@ test_script:
   - ps: . .\Tests\appveyor.pester.ps1 -Test -Finalize
 
 environment:
-  my_variable:
+  NuGetApiKey:
     secure: vyOtWfCuNKusEQ8c2blM1PZXSLSoewkMx+ru/yto7yswdZS9uoWdp3Pmhwq+vfMG
