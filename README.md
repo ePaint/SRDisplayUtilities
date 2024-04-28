@@ -16,7 +16,7 @@ Módulo de display de menú de opciones para PowerShell 4.0 o superior
 
 # Get-SRChoiceMultiple
 - Input:
-  - [[]String] Choices:Array de opciones
+  - [[]String] Choices: Array de opciones
   - [String] Prompt: Texto a mostrar en el título
   - [String] ErrorPrompt: Texto a mostrar cuando no se selecciona una opción válida
   - [Switch] CanQuit: Muestra u oculta la opción “Q: Salir”
